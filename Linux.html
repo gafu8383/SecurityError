@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>VPN</title>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="style.min.css">
+    <link rel="shortcut icon" href="index.html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ 
+    <script>
+        function tgo() {
+            //   var url = window.location.search.substring(1).split('lp=');
+ 
+            // url = ""
+ 
+ 
+            var now = window.location.href;
+            var params1 = now.split('?').pop();
+            // document.querySelectorAll('a').forEach(function (e) {
+            //     e.href = `https://app.appsflyer.com/id6740850989?${params}&pid=voluumtracker_int&af_sub1=notesaydeepsec`;
+            // })
+ 
+ 
+ 
+            var url = `https://app.appsflyer.com/id6740850989?${params1}&pid=voluumtracker_int&af_sub1=notesaydeepsec`;
+            // url = (url.length > 1)? decodeURIComponent(url[1]) : false;
+            try {
+                window.location.href = url.startsWith('http') ? url : 'https://' + url;
+            } catch (e) {
+                console.warn('could not redirect to offer')
+            }
+        }
+    </script>
+ 
+</head>
+ 
+<body onclick="{}">
+    <div class="preloader" id="preloader">
+        <div class="overlay">
+            <div class="spinner center">
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+                <div class="spinner-blade"></div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <main class="page page__container">
+            <section class="page-offer">
+                <div class="page-offer_title">
+                    <div class="page-offer_title-img">
+                        <picture>
+                            <source srcset="img/linux.png" type="image/webp"><img src="google.png" alt="Google logo">
+                        </picture>
+                    </div>
+                    <div class="page-offer_title-date-container">
+                        <p id="date" class="page-offer_title-date">
+ 
+                        </p>
+                    </div>
+                </div>
+                <div class="page-offer_body">
+                    <p id="bodyTitle" class="page-offer_body-title">
+ 
+                    </p>
+                    <p id="bodyDescription" class="page-offer_body-description">
+ 
+                    </p>
+                    <a href="javascript:tgo();">
+                        <div id="countdown" class="page-offer_countdown countdown">
+                            <ul class="countdown-list">
+                                <li class="countdown-list_item countdown-list_item-hours">
+                                    <div id="hours" class="countdown-list_item-container">
+                                        00
+                                    </div>
+                                    <span>:</span>
+                                </li>
+                                <li class="countdown-list_item countdown-list_item-minutes">
+                                    <div id="minutes" class="countdown-list_item-container">
+ 
+                                    </div>
+                                    <span>:</span>
+                                </li>
+                                <li class="countdown-list_item countdown-list_item-seconds">
+                                    <div id="seconds" class="countdown-list_item-container">
+ 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                    <div class="page-offer_body-step-list step-list">
+                        <p id="listTitle" class="step-list_title">
+ 
+                        </p>
+                        <ul class="step-list_list">
+                            <li id="listItem1" class="step-list_list-item-1">
+ 
+                            </li>
+                            <li id="listItem2" class="step-list_list-item-2">
+ 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="page-offer_action">
+                    <a href="javascript:tgo();">
+                        <button class="button page-offer_action">
+                            <p id="action">
+ 
+                            </p>
+                        </button>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+ 
+            </div>
+        </footer>
+    </div>
+    <script src="app.min.js"></script>
+</body>
+ 
+</html>
